@@ -1,5 +1,9 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
+
+@import '@fontsource-variable/epilogue';
+@import '@fontsource/source-sans-pro';
+@import '@fontsource-variable/manrope';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -110,11 +114,40 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@theme {
+  --font-primary: 'Epilogue Variable', sans-serif;
+  --font-secondary: 'Source Sans Pro', sans-serif;
+  --font-tertiary: 'Manrope Variable', sans-serif;
+  --color-muted-taupe: #9b998a;
+  --color-off-white: #f4f3f0;
+  --color-deep-green: #14240d;
+  --color-dark-gray: #333333;
+  --color-muted-olive: #6a7f5c;
+  --breakpoint-base: 20rem;
+  --breakpoint-basexl: 23.4375rem;
+  --breakpoint-xs: 25.875rem;
+  --breakpoint-3xl: 120rem;
+  --animate-fade-in: fadeIn 1s ease-in-out;
+
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  html,
   body {
     @apply bg-background text-foreground;
+    @apply max-w-full overflow-x-hidden
   }
 }
