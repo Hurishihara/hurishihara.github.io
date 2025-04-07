@@ -7,6 +7,7 @@ export const frontEndSkills: string[] = [
     'Tailwind CSS',
     'Vite',
     'Chakra UI',
+    'ShadCN UI',
     'HTML',
     'CSS',
     'Zustand',
