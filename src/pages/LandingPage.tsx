@@ -32,7 +32,7 @@ const LandingPage = () => {
                     </div>
                     <div className='flex flex-row items-center gap-2 mt-2'>
                         <Button variant='outline' className='bg-deep-green text-white hover:text-white font-tertiary hover:bg-muted-taupe cursor-pointer group'>
-                            <a className='flex flex-row gap-2 items-center' href='https://drive.google.com/file/d/1JFnVnpcaSu5OIjrT3gW-lWQFIM4Ly5_l/view?usp=drive_link' target='_blank'>
+                            <a className='flex flex-row gap-2 items-center' href='https://drive.google.com/file/d/1Qsw__zWeadRXZoe5PdgpIFPXBiIYvZAc/view?usp=drive_link' target='_blank'>
                                 <EyeIcon className='text-white' />
                                 View Resume
                                 <ArrowRight className='text-white group-hover:translate-x-1 transition-transform duration-300' />

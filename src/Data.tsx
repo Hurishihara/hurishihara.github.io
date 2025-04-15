@@ -16,7 +16,6 @@ export const frontEndSkills: string[] = [
 export const backEndSkills: string[] = [
     'Node.js',
     'Python',
-    'Flask',
     'Express.js',
     'Embedded JavaScript (EJS)',
     'PostgreSQL',
