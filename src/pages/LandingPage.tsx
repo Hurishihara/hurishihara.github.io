@@ -15,7 +15,7 @@ const LandingPage = () => {
 
     return (
         <>
-        <div className='bg-gray-50 base:px-1 basexl:px-1 xs:px-1 sm:px-2 md:px-2 lg:px-50 xl:px-50 2xl:px-50 3xl:px-50 animate-fade-in pb-50'>
+        <div className='bg-gray-50 base:px-1 basexl:px-1 xs:px-1 sm:px-2 md:px-2 lg:px-10 xl:px-2   0 2xl:px-50 3xl:px-50 animate-fade-in pb-50'>
             <div className='flex base:flex-col basexl:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row 3xl:flex-row items-center'>
                 <img src={image} className='h-60 w-60 shadow-2xl rounded-2xl m-10 object-cover hover:scale-105 transition-transform duration-300 ease-in-out' />
                 <div className='flex flex-col base:items-center basexl:items-center xs:items-center sm:items-start md:items-start lg:items-start xl:items-start 2xl:items-start 3xl:items-start gap-2'>
@@ -50,25 +50,25 @@ const LandingPage = () => {
             <div className='grid grid-cols-12 gap-4'>
                 <div className='base:col-span-12 basexl:col-span-12 xs:col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6 2xl:col-span-6 3xl:col-span-6'>
                     <div className='flex flex-col gap-2 py-10'>
-                        <div className='flex flex-row ml-10 items-start gap-2'>
+                        <div className='flex flex-row base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 items-start gap-2'>
                             <HandIcon className='text-deep-green' />
                             <h1 className='text-deep-green font-semibold text-xl font-primary'>
                                 About
                             </h1>
                         </div>
                         <div className='flex flex-col gap-10'>
-                            <p className='ml-10 font-secondary text-dark-gray base:text-md basexl:text-md xs:text-md sm:text-lg md:text-lg xl:text-lg 2xl:text-lg 3xl:text-lg  hover:text-deep-green hover:scale-105 transition-transform duration-300 ease-in-out'>
+                            <p className='base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-secondary text-dark-gray base:text-md basexl:text-md xs:text-md sm:text-lg md:text-lg xl:text-lg 2xl:text-lg 3xl:text-lg  hover:text-deep-green hover:scale-105 transition-transform duration-300 ease-in-out'>
                                 Hi! I'm Sebastian, a passionate software engineer with a strong foundation in computer science and a 
                                 deep expertise in <span className='font-bold'>JavaScript</span> and <span className='font-bold'>TypeScript</span>. I thrive on solving complex problems and 
                                 building innovative, scalable web applications that deliver exceptional user experiences.
                             </p>
-                            <p className='ml-10 font-secondary text-dark-gray base:text-md basexl:text-md xs:text-md sm:text-lg md:text-lg xl:text-lg 2xl:text-lg 3xl:text-lghover:text-deep-green hover:scale-105 transition-transform duration-300 ease-in-out'>
+                            <p className='base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-secondary text-dark-gray base:text-md basexl:text-md xs:text-md sm:text-lg md:text-lg xl:text-lg 2xl:text-lg 3xl:text-lghover:text-deep-green hover:scale-105 transition-transform duration-300 ease-in-out'>
                                 With a keen eye for clean, maintainable code, I specialize in <span className='font-bold'>modern frontend and 
                                 full-stack development</span>, leveraging frameworks like <span className='font-bold'>React</span>, <span className='font-bold'>Express.js</span>,
                                 and <span className='font-bold'>Node.js</span> to create performant and 
                                 dynamic solutions.
                             </p>
-                            <p className='ml-10 font-secondary text-dark-gray base:text-md basexl:text-md xs:text-md sm:text-lg md:text-lg xl:text-lg 2xl:text-lg 3xl:text-lg hover:text-deep-green hover:scale-105 transition-transform duration-300 ease-in-out'>
+                            <p className='base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-secondary text-dark-gray base:text-md basexl:text-md xs:text-md sm:text-lg md:text-lg xl:text-lg 2xl:text-lg 3xl:text-lg hover:text-deep-green hover:scale-105 transition-transform duration-300 ease-in-out'>
                                 My goal is to contribute to impactful projects, push the boundaries of web development, 
                                 and continuously grow as a developer—always 
                                 staying ahead of the latest trends and best practices in the JavaScript ecosystem.
@@ -78,46 +78,46 @@ const LandingPage = () => {
                 </div>
                 <div className='base:col-span-12 basexl:col-span-12 xs:col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6 2xl:col-span-6 3xl:col-span-6'>
                     <div className='flex flex-col gap-4 py-10'>
-                        <div className='flex flex-row ml-10 items-start gap-2'>
+                        <div className='flex flex-row base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 items-start gap-2'>
                             <WrenchIcon className='text-deep-green' />
                             <h1 className='text-deep-green font-semibold text-xl font-primary'>
                                 Tech Stack
                             </h1>
                         </div>
-                        <h1 className='font-primary text-deep-green ml-10 font-semibold'>
+                        <h1 className='font-primary text-deep-green base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-semibold'>
                             Frontend
                         </h1>
-                        <div className='flex flex-wrap gap-2 ml-10'>
+                        <div className='flex flex-wrap gap-2 base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10'>
                             {frontEndSkills.map((skill, index) => (
                                 <Badge key={index} className='bg-deep-green text-off-white font-secondary hover:bg-muted-taupe hover:scale-105 transition-transform duration-300 ease-in-out'>
                                     {skill}
                                 </Badge>
                             ))}
                         </div>
-                        <h1 className='font-primary text-deep-green ml-10 font-semibold'>
+                        <h1 className='font-primary text-deep-green base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-semibold'>
                             Backend
                         </h1>
-                        <div className='flex flex-wrap gap-2 ml-10'>
+                        <div className='flex flex-wrap gap-2 base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10'>
                             {backEndSkills.map((skill, index) => (
                                 <Badge key={index} className='bg-deep-green text-off-white font-secondary hover:bg-muted-taupe hover:scale-105 transition-transform duration-300 ease-in-out'>
                                     {skill}
                                 </Badge>
                             ))}
                         </div>
-                        <h1 className='font-primary text-deep-green ml-10 font-semibold'>
+                        <h1 className='font-primary text-deep-green base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-semibold'>
                             DevOps & Cloud
                         </h1>
-                        <div className='flex flex-wrap gap-2 ml-10'>
+                        <div className='flex flex-wrap gap-2 base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10'>
                             {devOpsAndCloudSkills.map((skill, index) => (
                                 <Badge key={index} className='bg-deep-green text-off-white font-secondary hover:bg-muted-taupe hover:scale-105 transition-transform duration-300 ease-in-out'>
                                     {skill}
                                 </Badge>
                             ))}
                         </div>
-                        <h1 className='font-primary text-deep-green ml-10 font-semibold'>
+                        <h1 className='font-primary text-deep-green base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 font-semibold'>
                             Developer Tools
                         </h1>
-                        <div className='flex flex-wrap gap-2 ml-10'>
+                        <div className='flex flex-wrap gap-2 base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10'>
                             {developerTools.map((skill, index) => (
                                 <Badge key={index} className='bg-deep-green text-off-white font-secondary hover:bg-muted-taupe hover:scale-105 transition-transform duration-300 ease-in-out'>
                                     {skill}
@@ -127,7 +127,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className='col-span-12'>
-                    <div className='flex flex-col gap-2 py-10 ml-10'>
+                    <div className='flex flex-col gap-2 py-10 base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10 '>
                        <div className='flex flex-row items-start gap-2'>
                             <BriefcaseBusinessIcon className='text-deep-green' />
                             <h1 className='text-deep-green font-semibold text-xl font-primary'>
@@ -137,14 +137,13 @@ const LandingPage = () => {
                        <Accordion type='single' collapsible className='bg-off-white rounded-2xl p-5'>
                             <AccordionItem value='item-1'>
                                 <AccordionTrigger className='hover:no-underline cursor-pointer '>
-                                   <div className='flex flex-row items-center gap-3 font-primary font-semibold'>
-                                        <span className='w-2 h-2 bg-deep-green rounded-full'></span>
+                                   <div className='flex flex-row items-center font-primary font-semibold'>
                                         <div className='flex flex-col gap-1'>
                                             <p className='text-deep-green font-semibold font-primary'>System Analyst Intern</p>
-                                            <div className='flex flex-row items-center gap-10'>
+                                            <div className='flex flex-row items-center gap-3'>
                                                 <p className='text-deep-green font-tertiary'>SAVii</p>
-                                                <Badge className='bg-deep-green text-white font-secondary hover:bg-muted-taupe'>
-                                                    2024 - 2025
+                                                <Badge className='bg-deep-green text-white font-secondary hover:bg-muted-taupe' > 
+                                                    Dec 2024 - Jan 2025
                                                 </Badge>
                                             </div>
                                         </div>
@@ -173,14 +172,13 @@ const LandingPage = () => {
                             </AccordionItem>
                             <AccordionItem value='item-2'>
                                 <AccordionTrigger className='hover:no-underline cursor-pointer'>
-                                   <div className='flex flex-row items-center gap-1 font-primary font-semibold'>
-                                        <span className='w-2 h-2 bg-deep-green rounded-full'></span>
+                                   <div className='flex flex-row items-center font-primary font-semibold'>
                                         <div className='flex flex-col gap-1'>
                                             <p className='text-deep-green font-semibold font-primary'>BS Computer Science</p>
-                                            <div className='flex flex-row items-center gap-10'>
-                                                <p className='text-deep-green font-tertiary '>AMA Computer College - Parañaque Campus</p>
-                                                <Badge className='bg-deep-green text-white font-secondary hover:bg-muted-taupe'>
-                                                    2021 - 2025
+                                            <div className='flex flex-row items-center gap-3'>
+                                                <p className='text-deep-green font-tertiary'>AMA Computer College - Parañaque Campus</p>
+                                                <Badge className='bg-deep-green text-white font-secondary hover:bg-muted-taupe mx-auto'>
+                                                    June 2021 - Sept 2025
                                                 </Badge>
                                             </div>
                                         </div>
@@ -204,7 +202,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className='col-span-12'>
-                    <div className='flex flex-col gap-2 py-10 ml-10'>
+                    <div className='flex flex-col  gap-2 py-10 base:mx-5 basexl:mx-5 xs:mx-5 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10 3xl:mx-10'>
                         <div className='flex flex-row items-start gap-2'>
                             <BlocksIcon className='text-deep-green' />
                             <h1 className='text-deep-green font-semibold text-xl font-primary'>
@@ -212,7 +210,7 @@ const LandingPage = () => {
                             </h1>
                         </div>
                         <div className='flex base:flex-col basexl:flex-col xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row 3xl:flex-row items-center gap-5'>
-                            <div className='flex flex-col items-start gap-2 mt-5'>
+                            <div className='flex flex-col items-start self-start gap-2 mt-5'>
                                 <img className='w-100 h-50 rounded-2xl object-cover' src={jobTracker}  />
                                 <div className='flex flex-row items-center gap-2'>
                                     <h1 className='text-deep-green font-primary font-bold text-lg'>
@@ -227,7 +225,7 @@ const LandingPage = () => {
                                     providing a user-friendly interface and seamless experience. Built with React, Elysia.js, and PostgreSQL.
                                 </p>
                             </div>
-                            <div className='flex flex-col items-start gap-2 mt-5'>
+                            <div className='flex flex-col items-start self-start gap-2 mt-5'>
                                 <img className='w-100 h-50 rounded-2xl object-cover' src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2FtNmp1cHg2Ym9ic3FibGp6MzQzNWJkMHcxZHFtNGZzZG1vOXZ2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ekn37VbHrR648/giphy.gif' />
                                 <div className='flex flex-row items-center gap-2'>
                                     <h1 className='text-deep-green font-primary font-bold text-lg'>
@@ -242,7 +240,7 @@ const LandingPage = () => {
                                     Built with React, Express.js, Socket.io, and PostgreSQL.
                                 </p>
                             </div>
-                            <div className='flex flex-col items-start gap-2 mt-5'>
+                            <div className='flex flex-col items-start self-start gap-2 mt-5'>
                                 <img className='w-100 h-50 rounded-2xl  object-cover' src={hotelRecommendation} />
                                 <div className='flex flex-row items-center gap-2'>
                                     <h1 className='text-deep-green font-primary font-bold text-lg'>
